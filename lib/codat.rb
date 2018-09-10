@@ -6,6 +6,11 @@ require 'codat/configuration'
 module Codat
   module_function
 
+  BASE_URLS = {
+    production: 'https://api.codat.io/',
+    uat: 'https://api-uat.codat.io/'
+  }.freeze
+
   def configure
     yield(configuration)
   end
