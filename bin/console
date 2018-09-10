@@ -7,5 +7,9 @@ require 'codat'
 require 'dotenv'
 Dotenv.load
 
+Codat.configure do |config|
+  config.api_key = ENV['API_KEY']
+end
+
 require 'pry'
 Pry.start
