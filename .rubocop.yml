@@ -1,7 +1,15 @@
 require: rubocop-rspec
 
 AllCops:
-  TargetRubyVersion: 2.5.1
+  TargetRubyVersion: 3.2.0
+  NewCops: enable
+  SuggestExtensions: false
+
+Gemspec/RequiredRubyVersion:
+  Enabled: false
+
+Gemspec/RequireMFA:
+  Enabled: false
 
 # Don't force top level comments in every class
 Style/Documentation:
