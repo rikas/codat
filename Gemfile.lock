@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    codat (0.1.0)
+    codat (0.1.1)
       faraday (~> 1.10)
       faraday_middleware (~> 1.2)
       multi_json (~> 1.15)
